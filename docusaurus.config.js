@@ -56,45 +56,27 @@ module.exports = {
       },
       items: [
         {
-          label: 'دسته‌بندی‌ها',
+          label: 'رشته‌های تحصیلی',
           position: 'left',
           items: [
             {
-              // to: 'docs/python/introduction',
-              // activeBasePath: 'docs',
-              label: 'پایتون',
-              to: 'courses/python',
-              // items: [
-              //   {
-              //     label: 'معرفی',
-              //     to: 'docs/python/introduction',
-              //   },
-              //   {
-              //     label: 'آموزش مقدماتی',
-              //     to: 'docs/python/beginner/introduction',
-              //   },
-              //   {
-              //     label: 'Matplotlib',
-              //     to: 'docs/',
-              //   },
-              // ],
+              label: 'مهندسی کامپیوتر',
+              to: 'docs/majors/computer-engineering/',
             },
             {
-              to: 'courses/git',
-              label: 'گیت',
-              // position: 'left',
-              // items: [
-              //   {
-              //     label: 'معرفی',
-              //     to: 'docs/git/introduction',
-              //   },
-              //   {
-              //     label: 'آموزش مقدماتی',
-              //     to: 'docs/git/beginner/introduction',
-              //   },
-              // ],
+              to: 'docs/majors/electrical-engineering/',
+              label: 'مهندسی برق',
+            },
+            {
+              to: 'docs/majors/computer-sciense/',
+              label: 'علوم کامپیوتر',
             },
           ]
+        },
+        {
+          label: 'دانش معلمی',
+          position: 'left',
+          to: 'docs/teaching/',
         },
         // {
         //   // to: 'docs/python/introduction',

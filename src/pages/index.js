@@ -8,7 +8,7 @@ import { translate } from '@docusaurus/Translate';
 
 const TITLE = translate({
   id: "pages.main.title",
-  message: "آموزش با طعم داده",
+  message: "صفحه نخست",
   description: "The main title in the first page"
 })
 
@@ -36,13 +36,13 @@ const KEYWORDS = [
 
 const HEADER = translate({
   id: "pages.main.datagit",
-  message: "دیتاگیت",
+  message: "دانش‌نامه دستیاران آموزشی",
   description: "The name of the project"
 })
 
 const SUB_HEADER = translate({
   id: "pages.main.tagline",
-  message: "برای برنامه نویس شدن باید دست به کد شد!",
+  message: "محل نگهداری تجربیات دستیاران آموزشی دانشگاه‌های مختلف پیرامون معلمی‌کردن‌هایشان",
   description: "The tagline of the project"
 })
 
