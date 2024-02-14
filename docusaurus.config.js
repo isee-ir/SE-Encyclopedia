@@ -1,5 +1,13 @@
-module.exports = {
+const organizationName = "isee-ir";
+const projectName = "TAs-Encyclopedia";
+const url = `https://${organizationName}.github.io`;
+const baseUrl = `/${projectName}/`;
 
+module.exports = {
+  url,
+  baseUrl,
+  organizationName,
+  projectName,
   i18n: {
     defaultLocale: "fa",
     locales: ["fa", "en"],
@@ -78,41 +86,6 @@ module.exports = {
           position: 'left',
           to: 'docs/teaching/',
         },
-        // {
-        //   // to: 'docs/python/introduction',
-        //   // activeBasePath: 'docs',
-        //   label: 'پایتون',
-        //   position: 'left',
-        //   items: [
-        //     {
-        //       label: 'معرفی',
-        //       to: 'docs/python/introduction',
-        //     },
-        //     {
-        //       label: 'آموزش مقدماتی',
-        //       to: 'docs/python/beginner/introduction',
-        //     },
-        //     // {
-        //     //   label: 'Matplotlib',
-        //     //   to: 'docs/',
-        //     // },
-        //   ],
-        // },
-        // {
-        //   to: 'docs/git/introduction',
-        //   label: 'گیت',
-        //   position: 'left',
-        //   items: [
-        //     {
-        //       label: 'معرفی',
-        //       to: 'docs/git/introduction',
-        //     },
-        //     {
-        //       label: 'آموزش مقدماتی',
-        //       to: 'docs/git/beginner/introduction',
-        //     },
-        //   ],
-        // },
         {
           to: 'blog',
           label: 'وبلاگ',
@@ -132,9 +105,9 @@ module.exports = {
     footer: {
       // style: 'light',
       // logo: {
-      //   alt: 'لوگو دیتاگیت',
-      //   src: 'img/logoGray.svg',
-      //    href: 'https://datagit.ir',
+      //   alt: 'لوگو',
+      //   src: 'img/logo.png',
+      //   href: url,
       // },
       copyright: `انجمن آموزشی مهندسی ایران`,
     },
