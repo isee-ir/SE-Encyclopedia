@@ -1,3 +1,4 @@
+# tutorial: https://github.com/LayZeeDK/github-pages-docusaurus
 name: documentation
 
 on:
@@ -5,6 +6,9 @@ on:
     branches: [main]
   push:
     branches: [main]
+
+permissions:
+  id-token: write
 
 jobs:
   deploy:
