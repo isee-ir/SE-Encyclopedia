@@ -4,8 +4,8 @@ const url = `https://${organizationName}.github.io`;
 const baseUrl = `/${projectName}/`;
 
 module.exports = {
-  url,
-  baseUrl,
+  url: `https://${organizationName}.github.io`,
+  baseUrl: `/${projectName}/`,
   organizationName,
   projectName,
   i18n: {
