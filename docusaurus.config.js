@@ -4,8 +4,8 @@ const url = `https://${organizationName}.github.io`;
 const baseUrl = `/${projectName}/`;
 
 module.exports = {
-  url: `https://${organizationName}.github.io`,
-  baseUrl: `/${projectName}/`,
+  url,
+  baseUrl,
   organizationName,
   projectName,
   i18n: {
@@ -24,11 +24,7 @@ module.exports = {
   },
   title: 'دانش‌نامه دستیاران آموزشی',
   tagline: 'دستیاری بهتر، آموزش باکیفیت‌تر',
-  url: 'https://docusaurus-2.netlify.com',
-  baseUrl: '/',
   trailingSlash: false,
-  organizationName: 'massoudmaboudi', // Usually your GitHub org/user name.
-  projectName: 'datagit_v2.docusaurus', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   // onBrokenMarkdownLinks:'ignore',
