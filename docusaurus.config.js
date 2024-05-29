@@ -1,5 +1,5 @@
 const organizationName = "isee-ir";
-const projectName = "TAs-Encyclopedia";
+const projectName = "SE-Encyclopedia";
 const url = `https://${organizationName}.github.io`;
 const baseUrl = `/${projectName}/`;
 
